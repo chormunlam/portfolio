@@ -6,15 +6,17 @@ import {
   AiOutlineProject,
   AiOutlineMail,
 } from "react-icons/ai";
+import { LuHome, LuMenu, LuContact, LuHardDrive } from "react-icons/lu";
 import { GrProjects } from "react-icons/gr";
 import { BsPerson } from "react-icons/bs";
+//https://react-icons.github.io/react-icons/icons?name=lu
 
 const navItems = [
-  { Icon: AiOutlineHome, label: "Home", href: "#main" },
+  { Icon: LuHome, label: "Home", href: "#main" },
   { Icon: GrProjects, label: "Work", href: "#work" },
-  { Icon: AiOutlineProject, label: "Projects", href: "#projects" },
+  { Icon: LuHardDrive, label: "Projects", href: "#projects" },
   { Icon: BsPerson, label: "Resume", href: "#resume" },
-  { Icon: AiOutlineMail, label: "Contact", href: "#contact" },
+  { Icon: LuContact, label: "Contact", href: "#contact" },
 ];
 
 const Sidenav = () => {
