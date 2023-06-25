@@ -1,9 +1,12 @@
-import { useState } from "react";
-
-import "./App.css";
+//import { useState } from "react";
+import Sidenav from "./components/Sidenav";
 
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <Sidenav />
+    </div>
+  );
 }
 
 export default App;
