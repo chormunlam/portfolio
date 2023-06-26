@@ -1,6 +1,5 @@
-import React from "react";
 import { TypeAnimation } from "react-type-animation";
-import { FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
+import {  FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 const Main = () => {
   return (
@@ -14,10 +13,10 @@ const Main = () => {
         <div className="m-auto flex h-full w-full max-w-[700px] flex-col items-center justify-center lg:items-start">
           <h1 className="text-4xl font-bold text-gray-800 sm:text-5xl">
             {" "}
-            I'm Chormun Lam
+            I am Chormun Lam
           </h1>
           <h2 className="flex pt-4 text-2xl text-gray-800 sm:text-3xl">
-            I'm a
+            I am a
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially

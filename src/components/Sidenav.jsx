@@ -1,12 +1,7 @@
 import { useState } from "react";
 import PropTypes from "prop-types";
-import {
-  AiOutlineMenu,
-  AiOutlineHome,
-  AiOutlineProject,
-  AiOutlineMail,
-} from "react-icons/ai";
-import { LuHome, LuMenu, LuContact, LuHardDrive } from "react-icons/lu";
+import { AiOutlineMenu } from "react-icons/ai";
+import { LuHome, LuContact, LuHardDrive } from "react-icons/lu";
 import { GrProjects } from "react-icons/gr";
 import { BsPerson } from "react-icons/bs";
 //https://react-icons.github.io/react-icons/icons?name=lu
@@ -29,6 +24,7 @@ const Sidenav = () => {
     <>
       {navItems.map(({ Icon, label, href }) => (
         <a
+          onClick={handleNav}
           key={href}
           href={href}
           className={`${className} flex w-[75%] cursor-pointer justify-center rounded-full bg-gray-100 p-4 shadow-lg shadow-gray-400 duration-200 ease-in hover:scale-110`}
